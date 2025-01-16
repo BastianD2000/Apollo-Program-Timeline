@@ -1,0 +1,277 @@
+@prefix ex: <http://apollo.org/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tl: <http://yoda.media.h-da.de/thull/vocab/tl#> .
+
+ex:timeline a tl:Timeline ;
+    rdfs:label "Apollo Missions Timeline" ;
+    tl:event ex:slide1,
+        ex:slide10,
+        ex:slide11,
+        ex:slide12,
+        ex:slide13,
+        ex:slide14,
+        ex:slide15,
+        ex:slide16,
+        ex:slide17,
+        ex:slide18,
+        ex:slide2,
+        ex:slide3,
+        ex:slide4,
+        ex:slide5,
+        ex:slide6,
+        ex:slide7,
+        ex:slide8,
+        ex:slide9 .
+
+ex:media1 a tl:Media ;
+    tl:caption "AS-201 launch" ;
+    tl:url <http://commons.wikimedia.org/wiki/Special:FilePath/AS-201_launch.jpg> .
+
+ex:media10 a tl:Media ;
+    tl:caption "AS09-23-3500 (22038477212)" ;
+    tl:url <http://commons.wikimedia.org/wiki/Special:FilePath/AS09-23-3500_(22038477212).jpg> .
+
+ex:media11 a tl:Media ;
+    tl:caption "AS10-34-5087" ;
+    tl:url <http://commons.wikimedia.org/wiki/Special:FilePath/AS10-34-5087.jpg> .
+
+ex:media12 a tl:Media ;
+    tl:caption "Aldrin Looks Back at Tranquility Base - GPN-2000-001102" ;
+    tl:url <http://commons.wikimedia.org/wiki/Special:FilePath/Aldrin_Looks_Back_at_Tranquility_Base_-_GPN-2000-001102.jpg> .
+
+ex:media13 a tl:Media ;
+    tl:caption "20180320 Apollo 12 Virginia Air and Space Center-2" ;
+    tl:url <http://commons.wikimedia.org/wiki/Special:FilePath/20180320_Apollo_12_Virginia_Air_and_Space_Center-2.jpg> .
+
+ex:media14 a tl:Media ;
+    tl:caption "1970 Mission Control Apollo 13" ;
+    tl:url <http://commons.wikimedia.org/wiki/Special:FilePath/1970_Mission_Control_Apollo_13.jpg> .
+
+ex:media15 a tl:Media ;
+    tl:caption "Apollo14 - Landung" ;
+    tl:url <http://commons.wikimedia.org/wiki/Special:FilePath/Apollo14_-_Landung.jpg> .
+
+ex:media16 a tl:Media ;
+    tl:caption "A15" ;
+    tl:url <http://commons.wikimedia.org/wiki/Special:FilePath/A15.s74_41836.jpg> .
+
+ex:media17 a tl:Media ;
+    tl:caption "ALSEP AS16-113-18374" ;
+    tl:url <http://commons.wikimedia.org/wiki/Special:FilePath/ALSEP_AS16-113-18374.jpg> .
+
+ex:media18 a tl:Media ;
+    tl:caption "AS17-140-21493+AS17-140-21497" ;
+    tl:url <http://commons.wikimedia.org/wiki/Special:FilePath/AS17-140-21493+AS17-140-21497.jpg> .
+
+ex:media2 a tl:Media ;
+    tl:caption "AS-203 launch" ;
+    tl:url <http://commons.wikimedia.org/wiki/Special:FilePath/AS-203_launch.jpg> .
+
+ex:media3 a tl:Media ;
+    tl:caption "AS-202 launch" ;
+    tl:url <http://commons.wikimedia.org/wiki/Special:FilePath/AS-202_launch.jpg> .
+
+ex:media4 a tl:Media ;
+    tl:caption "A1prayer" ;
+    tl:url <http://commons.wikimedia.org/wiki/Special:FilePath/A1prayer.jpg> .
+
+ex:media5 a tl:Media ;
+    tl:caption "AS4-1-410HR" ;
+    tl:url <http://commons.wikimedia.org/wiki/Special:FilePath/AS4-1-410HR.jpg> .
+
+ex:media6 a tl:Media ;
+    tl:caption "Apollo 5 on pad" ;
+    tl:url <http://commons.wikimedia.org/wiki/Special:FilePath/Apollo_5_on_pad.jpg> .
+
+ex:media7 a tl:Media ;
+    tl:caption "67-H-1230 Lunar module LTA-2 R" ;
+    tl:url <http://commons.wikimedia.org/wiki/Special:FilePath/67-H-1230_Lunar_module_LTA-2_R.jpg> .
+
+ex:media8 a tl:Media ;
+    tl:caption "AS-205 crew" ;
+    tl:url <http://commons.wikimedia.org/wiki/Special:FilePath/AS-205_crew.jpg> .
+
+ex:media9 a tl:Media ;
+    tl:caption "AS08-16-2593 remastered" ;
+    tl:url <http://commons.wikimedia.org/wiki/Special:FilePath/AS08-16-2593_remastered.jpg> .
+
+ex:slide1 a tl:Slide ;
+    tl:endDate "1966-02-26" ;
+    tl:media ex:media1 ;
+    tl:startDate "1966-02-26" ;
+    tl:text ex:text1 .
+
+ex:slide10 a tl:Slide ;
+    tl:endDate "1969-03-13" ;
+    tl:media ex:media10 ;
+    tl:startDate "1969-03-03" ;
+    tl:text ex:text10 .
+
+ex:slide11 a tl:Slide ;
+    tl:endDate "1969-05-26" ;
+    tl:media ex:media11 ;
+    tl:startDate "1969-05-18" ;
+    tl:text ex:text11 .
+
+ex:slide12 a tl:Slide ;
+    tl:endDate "1969-07-24" ;
+    tl:media ex:media12 ;
+    tl:startDate "1969-07-16" ;
+    tl:text ex:text12 .
+
+ex:slide13 a tl:Slide ;
+    tl:endDate "1969-11-24" ;
+    tl:media ex:media13 ;
+    tl:startDate "1969-11-14" ;
+    tl:text ex:text13 .
+
+ex:slide14 a tl:Slide ;
+    tl:endDate "1970-04-17" ;
+    tl:media ex:media14 ;
+    tl:startDate "1970-04-11" ;
+    tl:text ex:text14 .
+
+ex:slide15 a tl:Slide ;
+    tl:endDate "1971-02-09" ;
+    tl:media ex:media15 ;
+    tl:startDate "1971-01-31" ;
+    tl:text ex:text15 .
+
+ex:slide16 a tl:Slide ;
+    tl:endDate "1971-08-07" ;
+    tl:media ex:media16 ;
+    tl:startDate "1971-07-26" ;
+    tl:text ex:text16 .
+
+ex:slide17 a tl:Slide ;
+    tl:endDate "1972-04-27" ;
+    tl:media ex:media17 ;
+    tl:startDate "1972-04-16" ;
+    tl:text ex:text17 .
+
+ex:slide18 a tl:Slide ;
+    tl:endDate "1972-12-19" ;
+    tl:media ex:media18 ;
+    tl:startDate "1972-12-07" ;
+    tl:text ex:text18 .
+
+ex:slide2 a tl:Slide ;
+    tl:endDate "" ;
+    tl:media ex:media2 ;
+    tl:startDate "1966-07-05" ;
+    tl:text ex:text2 .
+
+ex:slide3 a tl:Slide ;
+    tl:endDate "1966-08-25" ;
+    tl:media ex:media3 ;
+    tl:startDate "1966-08-25" ;
+    tl:text ex:text3 .
+
+ex:slide4 a tl:Slide ;
+    tl:endDate "" ;
+    tl:media ex:media4 ;
+    tl:startDate "1967-02-21" ;
+    tl:text ex:text4 .
+
+ex:slide5 a tl:Slide ;
+    tl:endDate "1967-11-09" ;
+    tl:media ex:media5 ;
+    tl:startDate "1967-11-09" ;
+    tl:text ex:text5 .
+
+ex:slide6 a tl:Slide ;
+    tl:endDate "1968-01-24" ;
+    tl:media ex:media6 ;
+    tl:startDate "1968-01-22" ;
+    tl:text ex:text6 .
+
+ex:slide7 a tl:Slide ;
+    tl:endDate "1968-04-04" ;
+    tl:media ex:media7 ;
+    tl:startDate "1968-04-04" ;
+    tl:text ex:text7 .
+
+ex:slide8 a tl:Slide ;
+    tl:endDate "1968-10-22" ;
+    tl:media ex:media8 ;
+    tl:startDate "1968-10-11" ;
+    tl:text ex:text8 .
+
+ex:slide9 a tl:Slide ;
+    tl:endDate "1968-12-27" ;
+    tl:media ex:media9 ;
+    tl:startDate "1968-12-21" ;
+    tl:text ex:text9 .
+
+ex:text1 a tl:Text ;
+    tl:headline "AS-201" ;
+    tl:text "AS-201 (or SA-201), flown February 26, 1966, was the first uncrewed test flight of an entire production Block I Apollo command and service module and the Saturn IB launch vehicle. The spacecraft consisted of the second Block I command module and the first Block I service module. The suborbital flight was a partially successful demonstration of the service propulsion system and the reaction control systems of both modules, and successfully demonstrated the capability of the command module's heat shield to survive re-entry from low Earth orbit.<br><b>Rocket:</b><br>Saturn IB SA-201<br><b>Spacecraft:</b><br><a href=\"http://dbpedia.org/resource/Apollo_command_and_service_module\" target=\"_blank\">Apollo command and service module</a><br><b>Launch Site:</b><br><a href=\"http://dbpedia.org/resource/Cape_Canaveral_Air_Force_Station\" target=\"_blank\">Cape Canaveral Air Force Station</a><br><a href=\"http://dbpedia.org/resource/Cape_Canaveral_Air_Force_Station_Launch_Complex_34\" target=\"_blank\">Cape Canaveral Air Force Station Launch Complex 34</a>" .
+
+ex:text10 a tl:Text ;
+    tl:headline "Apollo 9" ;
+    tl:text "Apollo 9 (March 3–13, 1969) was the third human spaceflight in NASA's Apollo program. Flown in low Earth orbit, it was the second crewed Apollo mission that the United States launched via a Saturn V rocket, and was the first flight of the full Apollo spacecraft: the command and service module (CSM) with the Lunar Module (LM). The mission was flown to qualify the LM for lunar orbit operations in preparation for the first Moon landing by demonstrating its descent and ascent propulsion systems, showing that its crew could fly it independently, then rendezvous and dock with the CSM again, as would be required for the first crewed lunar landing. Other objectives of the flight included firing the LM descent engine to propel the spacecraft stack as a backup mode (as would be required on the Apollo 13 mission), and use of the portable life support system backpack outside the LM cabin. The three-man crew consisted of Commander James McDivitt, Command Module Pilot David Scott, and Lunar Module Pilot Rusty Schweickart. During the ten-day mission, they tested systems and procedures critical to landing on the Moon, including the LM engines, backpack life support systems, navigation systems and docking maneuvers. After launching on March 3, 1969, the crew performed the first crewed flight of a lunar module, the first docking and extraction of the same, one two-person spacewalk (EVA), and the second docking of two crewed spacecraft—two months after the Soviets performed a spacewalk crew transfer between Soyuz 4 and Soyuz 5. The mission concluded on March 13 and was a complete success. It proved the LM worthy of crewed spaceflight, setting the stage for the dress rehearsal for the lunar landing, Apollo 10, before the ultimate goal, landing on the Moon.<br><b>Crew:</b><br><a href=\"http://dbpedia.org/resource/David_Scott\" target=\"_blank\">David Scott</a> - Command Module Pilot<br><a href=\"http://dbpedia.org/resource/James_McDivitt\" target=\"_blank\">James McDivitt</a> - Commander<br><a href=\"http://dbpedia.org/resource/Rusty_Schweickart\" target=\"_blank\">Rusty Schweickart</a> - Lunar Module Pilot<br><b>Rocket:</b><br>Saturn V SA-504<br><b>Spacecraft:</b><br><a href=\"http://dbpedia.org/resource/Apollo_Lunar_Module\" target=\"_blank\">Apollo Lunar Module</a><br><a href=\"http://dbpedia.org/resource/Command_and_service_module\" target=\"_blank\">Command and service module</a><br><b>Launch Site:</b><br><a href=\"http://dbpedia.org/resource/Kennedy_Space_Center\" target=\"_blank\">Kennedy Space Center</a><br><a href=\"http://dbpedia.org/resource/Kennedy_Space_Center_Launch_Complex_39\" target=\"_blank\">Kennedy Space Center Launch Complex 39</a>" .
+
+ex:text11 a tl:Text ;
+    tl:headline "Apollo 10" ;
+    tl:text "Apollo 10 (May 18–26, 1969) was a human spaceflight, the fourth crewed mission in the United States Apollo program, and the second (after Apollo 8) to orbit the Moon. NASA described it as a \"dress rehearsal\" for the first Moon landing, and designated it an \"F\" mission, intended to test all spacecraft components and procedures short of actual descent and landing. While astronaut John Young remained in the Command and Service Module (CSM) orbiting the Moon, astronauts Thomas Stafford and Gene Cernan flew the Apollo Lunar Module (LM) to within 15.6 kilometers (8.4 nmi) of the lunar surface, the point at which powered descent for landing would begin on a landing mission, before rejoining Young in the CSM. After orbiting the Moon 31 times, Apollo 10 returned safely to Earth; its success enabled the first crewed landing during Apollo 11 two months later. While NASA had considered attempting the first crewed lunar landing on Apollo 10, mission planners ultimately decided that it would be prudent to have a practice flight to hone the procedures and techniques. The crew encountered some issues during the course of the flight, namely pogo oscillations during the launch phase and a brief, uncontrolled tumble of the LM ascent stage in lunar orbit during its solo flight; however, the major mission objectives were accomplished. Stafford and Cernan observed and photographed Apollo 11's planned landing site in the Sea of Tranquility. Apollo 10 spent approximately 61 hours orbiting the Moon, for about eight of which Stafford and Cernan flew the LM apart from Young in the CSM, and about 8 days total in space. Additionally, Apollo 10 set the record for the highest speed attained by a crewed vehicle: 39,897 km/h (11.08 km/s or 24,791 mph) on May 26, 1969, during the return from the Moon. The mission's call signs were the names of the Peanuts characters Charlie Brown for the CSM and Snoopy for the LM, who became Apollo 10's semi-official mascots. Peanuts creator Charles Schulz also drew mission-related artwork for NASA.<br><b>Crew:</b><br><a href=\"http://dbpedia.org/resource/Gene_Cernan\" target=\"_blank\">Gene Cernan</a> - Command Module Pilot<br><a href=\"http://dbpedia.org/resource/John_Young_(astronaut)\" target=\"_blank\">John Young (astronaut)</a> - Commander<br><a href=\"http://dbpedia.org/resource/Thomas_P._Stafford\" target=\"_blank\">Thomas P. Stafford</a> - Lunar Module Pilot<br><b>Rocket:</b><br>Saturn V SA-505<br><b>Spacecraft:</b><br><a href=\"http://dbpedia.org/resource/Apollo_Lunar_Module\" target=\"_blank\">Apollo Lunar Module</a><br><a href=\"http://dbpedia.org/resource/Apollo_command_and_service_module\" target=\"_blank\">Apollo command and service module</a><br><b>Launch Site:</b><br><a href=\"Kennedy LC-39B\" target=\"_blank\">Kennedy LC-39B</a>" .
+
+ex:text12 a tl:Text ;
+    tl:headline "Apollo 11" ;
+    tl:text "Apollo 11 (July 16–24, 1969) was the American spaceflight that first landed humans on the Moon. Commander Neil Armstrong and lunar module pilot Buzz Aldrin landed the Apollo Lunar Module Eagle on July 20, 1969, at 20:17 UTC, and Armstrong became the first person to step onto the Moon's surface six hours and 39 minutes later, on July 21 at 02:56 UTC. Aldrin joined him 19 minutes later, and they spent about two and a quarter hours together exploring the site they had named Tranquility Base upon landing. Armstrong and Aldrin collected 47.5 pounds (21.5 kg) of lunar material to bring back to Earth as pilot Michael Collins flew the Command Module Columbia in lunar orbit, and were on the Moon's surface for 21 hours, 36 minutes before lifting off to rejoin Columbia. Apollo 11 was launched by a Saturn V rocket from Kennedy Space Center on Merritt Island, Florida, on July 16 at 13:32 UTC, and it was the fifth crewed mission of NASA's Apollo program. The Apollo spacecraft had three parts: a command module (CM) with a cabin for the three astronauts, the only part that returned to Earth; a service module (SM), which supported the command module with propulsion, electrical power, oxygen, and water; and a lunar module (LM) that had two stages—a descent stage for landing on the Moon and an ascent stage to place the astronauts back into lunar orbit. After being sent to the Moon by the Saturn V's third stage, the astronauts separated the spacecraft from it and traveled for three days until they entered lunar orbit. Armstrong and Aldrin then moved into Eagle and landed in the Sea of Tranquility on July 20. The astronauts used Eagle's ascent stage to lift off from the lunar surface and rejoin Collins in the command module. They jettisoned Eagle before they performed the maneuvers that propelled Columbia out of the last of its 30 lunar orbits onto a trajectory back to Earth. They returned to Earth and splashed down in the Pacific Ocean on July 24 after more than eight days in space. Armstrong's first step onto the lunar surface was broadcast on live TV to a worldwide audience. He described the event as \"one small step for [a] man, one giant leap for mankind.\" Apollo 11 effectively proved US victory in the Space Race to demonstrate spaceflight superiority, by fulfilling a national goal proposed in 1961 by President John F. Kennedy, \"before this decade is out, of landing a man on the Moon and returning him safely to the Earth.\"<br><b>Crew:</b><br><a href=\"http://dbpedia.org/resource/Buzz_Aldrin\" target=\"_blank\">Buzz Aldrin</a> - Command Module Pilot<br><a href=\"http://dbpedia.org/resource/Michael_Collins_(astronaut)\" target=\"_blank\">Michael Collins (astronaut)</a> - Commander<br><a href=\"http://dbpedia.org/resource/Neil_Armstrong\" target=\"_blank\">Neil Armstrong</a> - Lunar Module Pilot<br><b>Rocket:</b><br>Saturn V SA-506<br><b>Spacecraft:</b><br><a href=\"http://dbpedia.org/resource/Apollo_Lunar_Module\" target=\"_blank\">Apollo Lunar Module</a><br><a href=\"http://dbpedia.org/resource/Apollo_command_and_service_module\" target=\"_blank\">Apollo command and service module</a><br><b>Launch Site:</b><br><a href=\"Kennedy Space Center LC-39A\" target=\"_blank\">Kennedy Space Center LC-39A</a>" .
+
+ex:text13 a tl:Text ;
+    tl:headline "Apollo 12" ;
+    tl:text "Apollo 12 (November 14–24, 1969) was the sixth crewed flight in the United States Apollo program and the second to land on the Moon. It was launched on November 14, 1969, by NASA from the Kennedy Space Center, Florida. Commander Charles \"Pete\" Conrad and Lunar Module Pilot Alan L. Bean performed just over one day and seven hours of lunar surface activity while Command Module Pilot Richard F. Gordon remained in lunar orbit. Apollo 12 would have attempted the first lunar landing had Apollo 11 failed, but after the success of Neil Armstrong's mission, Apollo 12 was postponed by two months, and other Apollo missions also put on a more relaxed schedule. More time was allotted for geologic training in preparation for Apollo 12 than for Apollo 11, Conrad and Bean making several geology field trips in preparation for their mission. Apollo 12's spacecraft and launch vehicle were almost identical to Apollo 11's. One addition was hammocks to allow Conrad and Bean to rest more comfortably on the Moon. Shortly after being launched on a rainy day at Kennedy Space Center, Apollo 12 was twice struck by lightning, causing instrumentation problems but little damage. Switching to the auxiliary power supply resolved the data relay problem, saving the mission. The outward journey to the Moon otherwise saw few problems. On November 19, Conrad and Bean achieved a precise landing at their expected location within walking distance of the Surveyor 3 robotic probe, which had landed on April 20, 1967. In making a pinpoint landing, they showed that NASA could plan future missions in the expectation that astronauts could land close to sites of scientific interest. Conrad and Bean carried the Apollo Lunar Surface Experiments Package, a group of nuclear-powered scientific instruments, as well as the first color television camera taken by an Apollo mission to the lunar surface, but transmission was lost after Bean accidentally pointed the camera at the Sun and its sensor was destroyed. On the second of two moonwalks, they visited Surveyor 3 and removed parts for return to Earth. Lunar Module Intrepid lifted off from the Moon on November 20 and docked with the command module, which subsequently traveled back to Earth. The Apollo 12 mission ended on November 24 with a successful splashdown.<br><b>Crew:</b><br><a href=\"http://dbpedia.org/resource/Alan_Bean\" target=\"_blank\">Alan Bean</a> - Command Module Pilot<br><a href=\"http://dbpedia.org/resource/Pete_Conrad\" target=\"_blank\">Pete Conrad</a> - Commander<br><a href=\"http://dbpedia.org/resource/Richard_F._Gordon_Jr.\" target=\"_blank\">Richard F. Gordon Jr.</a> - Lunar Module Pilot<br><b>Rocket:</b><br>Saturn V SA-507<br><b>Spacecraft:</b><br><a href=\"http://dbpedia.org/resource/Apollo_Lunar_Module\" target=\"_blank\">Apollo Lunar Module</a><br><a href=\"http://dbpedia.org/resource/Apollo_command_and_service_module\" target=\"_blank\">Apollo command and service module</a><br><b>Launch Site:</b><br><a href=\"Kennedy LC-39A\" target=\"_blank\">Kennedy LC-39A</a>" .
+
+ex:text14 a tl:Text ;
+    tl:headline "Apollo 13" ;
+    tl:text "Apollo 13 (April 11–17, 1970) was the seventh crewed mission in the Apollo space program and the third meant to land on the Moon. The craft was launched from Kennedy Space Center on April 11, 1970, but the lunar landing was aborted after an oxygen tank in the service module (SM) failed two days into the mission. The crew instead looped around the Moon and returned safely to Earth on April 17. The mission was commanded by Jim Lovell, with Jack Swigert as command module (CM) pilot and Fred Haise as Lunar Module (LM) pilot. Swigert was a late replacement for Ken Mattingly, who was grounded after exposure to rubella. A routine stir of an oxygen tank ignited damaged wire insulation inside it, causing an explosion that vented the contents of both of the SM's oxygen tanks to space. Without oxygen, needed for breathing and for generating electric power, the SM's propulsion and life support systems could not operate. The CM's systems had to be shut down to conserve its remaining resources for reentry, forcing the crew to transfer to the LM as a lifeboat. With the lunar landing canceled, mission controllers worked to bring the crew home alive. Although the LM was designed to support two men on the lunar surface for two days, Mission Control in Houston improvised new procedures so it could support three men for four days. The crew experienced great hardship, caused by limited power, a chilly and wet cabin and a shortage of potable water. There was a critical need to adapt the CM's cartridges for the carbon dioxide scrubber system to work in the LM; the crew and mission controllers were successful in improvising a solution. The astronauts' peril briefly renewed public interest in the Apollo program; tens of millions watched the splashdown in the South Pacific Ocean on television. An investigative review board found fault with preflight testing of the oxygen tank and Teflon being placed inside it. The board recommended changes, including minimizing the use of potentially combustible items inside the tank; this was done for Apollo 14. The story of Apollo 13 has been dramatized several times, most notably in the 1995 film Apollo 13 – based on Lost Moon, the 1994 memoir co-authored by Lovell – and an episode of the 1998 miniseries From the Earth to the Moon.<br><b>Crew:</b><br><a href=\"http://dbpedia.org/resource/Fred_Haise\" target=\"_blank\">Fred Haise</a> - Command Module Pilot<br><a href=\"http://dbpedia.org/resource/Jack_Swigert\" target=\"_blank\">Jack Swigert</a> - Commander<br><a href=\"http://dbpedia.org/resource/Jim_Lovell\" target=\"_blank\">Jim Lovell</a> - Lunar Module Pilot<br><b>Rocket:</b><br>Saturn V SA-508<br><b>Spacecraft:</b><br><a href=\"http://dbpedia.org/resource/Apollo_Lunar_Module\" target=\"_blank\">Apollo Lunar Module</a><br><a href=\"http://dbpedia.org/resource/Apollo_command_and_service_module\" target=\"_blank\">Apollo command and service module</a><br><b>Launch Site:</b><br><a href=\"Kennedy LC-39A\" target=\"_blank\">Kennedy LC-39A</a>" .
+
+ex:text15 a tl:Text ;
+    tl:headline "Apollo 14" ;
+    tl:text "Apollo 14 (January 31, 1971 – February 9, 1971) was the eighth crewed mission in the United States Apollo program, the third to land on the Moon, and the first to land in the lunar highlands. It was the last of the \"H missions\", landings at specific sites of scientific interest on the Moon for two-day stays with two lunar extravehicular activities (EVAs or moonwalks). The mission was originally scheduled for 1970, but was postponed because of the investigation following the failure of Apollo 13 to reach the Moon's surface, and the need for modifications to the spacecraft as a result. Commander Alan Shepard, Command Module Pilot Stuart Roosa, and Lunar Module Pilot Edgar Mitchell launched on their nine-day mission on Sunday, January 31, 1971, at 4:03:02 p.m. EST. En route to the lunar landing, the crew overcame malfunctions that might have resulted in a second consecutive aborted mission, and possibly, the premature end of the Apollo program. Shepard and Mitchell made their lunar landing on February 5 in the Fra Mauro formation – originally the target of Apollo 13. During the two walks on the surface, they collected 94.35 pounds (42.80 kg) of Moon rocks and deployed several scientific experiments. To the dismay of some geologists, Shepard and Mitchell did not reach the rim of Cone crater as had been planned, though they came close. In Apollo 14's most famous event, Shepard hit two golf balls he had brought with him with a makeshift club. While Shepard and Mitchell were on the surface, Roosa remained in lunar orbit aboard the Command and Service Module, performing scientific experiments and photographing the Moon, including the landing site of the future Apollo 16 mission. He took several hundred seeds on the mission, many of which were germinated on return, resulting in the so-called Moon trees, that were widely distributed in the following years. After liftoff from the lunar surface and a successful docking, the spacecraft was flown back to Earth where the three astronauts splashed down safely in the Pacific Ocean on February 9.<br><b>Crew:</b><br><a href=\"http://dbpedia.org/resource/Alan_Shepard\" target=\"_blank\">Alan Shepard</a> - Command Module Pilot<br><a href=\"http://dbpedia.org/resource/Edgar_Mitchell\" target=\"_blank\">Edgar Mitchell</a> - Commander<br><a href=\"http://dbpedia.org/resource/Stuart_Roosa\" target=\"_blank\">Stuart Roosa</a> - Lunar Module Pilot<br><b>Rocket:</b><br>Saturn V SA-509<br><b>Spacecraft:</b><br><a href=\"http://dbpedia.org/resource/Apollo_CSM\" target=\"_blank\">Apollo CSM</a><br><a href=\"http://dbpedia.org/resource/Apollo_Lunar_Module\" target=\"_blank\">Apollo Lunar Module</a><br><b>Launch Site:</b><br><a href=\"Kennedy LC-39A\" target=\"_blank\">Kennedy LC-39A</a>" .
+
+ex:text16 a tl:Text ;
+    tl:headline "Apollo 15" ;
+    tl:text "Apollo 15 (July 26 – August 7, 1971) was the ninth crewed mission in the United States' Apollo program and the fourth to land on the Moon. It was the first J mission, with a longer stay on the Moon and a greater focus on science than earlier landings. Apollo 15 saw the first use of the Lunar Roving Vehicle. The mission began on July 26 and ended on August 7, with the lunar surface exploration taking place between July 30 and August 2. Commander David Scott and Lunar Module Pilot James Irwin landed near Hadley Rille and explored the local area using the rover, allowing them to travel further from the lunar module than had been possible on previous missions. They spent 181⁄2 hours on the Moon's surface on four extravehicular activities (EVA), and collected 170 pounds (77 kg) of surface material. At the same time, Command Module Pilot Alfred Worden orbited the Moon, operating the sensors in the scientific instrument module (SIM) bay of the service module. This suite of instruments collected data on the Moon and its environment using a panoramic camera, a gamma-ray spectrometer, a mapping camera, a laser altimeter, a mass spectrometer, and a lunar subsatellite deployed at the end of the moonwalks. The lunar module returned safely to the command module and, at the end of Apollo 15's 74th lunar orbit, the engine was fired for the journey home. During the return trip, Worden performed the first spacewalk in deep space. The Apollo 15 mission splashed down safely on August 7 despite the loss of one of its three parachutes. The mission accomplished its goals but was marred by negative publicity the following year when it emerged that the crew had carried unauthorized postal covers to the lunar surface, some of which were sold by a West German stamp dealer. The members of the crew were reprimanded for poor judgment, and did not fly in space again. The mission also saw the collection of the Genesis Rock, thought to be part of the Moon's early crust, and Scott's use of a hammer and a feather to validate Galileo's theory that when there is no air resistance, objects fall at the same rate due to gravity regardless of their mass.<br><b>Crew:</b><br><a href=\"http://dbpedia.org/resource/Alfred_Worden\" target=\"_blank\">Alfred Worden</a> - Command module pilot<br><a href=\"http://dbpedia.org/resource/David_Scott\" target=\"_blank\">David Scott</a> - Commander<br><a href=\"http://dbpedia.org/resource/James_Irwin\" target=\"_blank\">James Irwin</a> - Lunar module pilot<br><b>Rocket:</b><br>Saturn V SA-510<br><b>Spacecraft:</b><br><a href=\"http://dbpedia.org/resource/Apollo_CSM\" target=\"_blank\">Apollo CSM</a><br><a href=\"http://dbpedia.org/resource/Apollo_Lunar_Module\" target=\"_blank\">Apollo Lunar Module</a><br><b>Launch Site:</b><br><a href=\"Kennedy LC-39A\" target=\"_blank\">Kennedy LC-39A</a>" .
+
+ex:text17 a tl:Text ;
+    tl:headline "Apollo 16" ;
+    tl:text "Apollo 16 (April 16–27, 1972) was the tenth crewed mission in the United States Apollo space program, administered by NASA, and the fifth and penultimate to land on the Moon. It was the second of Apollo's \"J missions\", with an extended stay on the lunar surface, a focus on science, and the use of the Lunar Roving Vehicle (LRV). The landing and exploration were in the Descartes Highlands, a site chosen because some scientists expected it to be an area formed by volcanic action, though this proved to not be the case. The mission was crewed by Commander John Young, Lunar Module Pilot Charles Duke and Command Module Pilot Ken Mattingly. Launched from the Kennedy Space Center in Florida on April 16, 1972, Apollo 16 experienced a number of minor glitches en route to the Moon. These culminated with a problem with the spaceship's main engine that resulted in a six-hour delay in the Moon landing as NASA managers contemplated having the astronauts abort the mission and return to Earth, before deciding the problem could be overcome. Although they permitted the lunar landing, NASA had the astronauts return from the mission one day earlier than planned. After flying the lunar module to the Moon's surface on April 21, Young and Duke spent 71 hours—just under three days—on the lunar surface, during which they conducted three extravehicular activities or moonwalks, totaling 20 hours and 14 minutes. The pair drove the lunar rover, the second used on the Moon, for 26.7 kilometers (16.6 mi). On the surface, Young and Duke collected 95.8 kilograms (211 lb) of lunar samples for return to Earth, including Big Muley, the largest Moon rock collected during the Apollo missions. During this time Mattingly orbited the Moon in the command and service module (CSM), taking photos and operating scientific instruments. Mattingly, in the command module, spent 126 hours and 64 revolutions in lunar orbit. After Young and Duke rejoined Mattingly in lunar orbit, the crew released a subsatellite from the service module (SM). During the return trip to Earth, Mattingly performed a one-hour spacewalk to retrieve several film cassettes from the exterior of the service module. Apollo 16 returned safely to Earth on April 27, 1972.<br><b>Crew:</b><br><a href=\"http://dbpedia.org/resource/Charles_Duke\" target=\"_blank\">Charles Duke</a> - Command Module Pilot<br><a href=\"http://dbpedia.org/resource/John_Young_(astronaut)\" target=\"_blank\">John Young (astronaut)</a> - Commander<br><a href=\"http://dbpedia.org/resource/Ken_Mattingly\" target=\"_blank\">Ken Mattingly</a> - Lunar Module Pilot<br><b>Rocket:</b><br>Saturn V SA-511<br><b>Spacecraft:</b><br><a href=\"http://dbpedia.org/resource/Apollo_CSM\" target=\"_blank\">Apollo CSM</a><br><a href=\"http://dbpedia.org/resource/Apollo_Lunar_Module\" target=\"_blank\">Apollo Lunar Module</a><br><b>Launch Site:</b><br><a href=\"Kennedy LC-39A\" target=\"_blank\">Kennedy LC-39A</a>" .
+
+ex:text18 a tl:Text ;
+    tl:headline "Apollo 17" ;
+    tl:text "Apollo 17 (December 7–19, 1972) was the final mission of NASA's Apollo program, the most recent time humans have set foot on the Moon or traveled beyond low Earth orbit. Commander Gene Cernan and Lunar Module Pilot Harrison Schmitt walked on the Moon, while Command Module Pilot Ronald Evans orbited above. Schmitt was the only professional geologist to land on the Moon, selected in place of Joe Engle with NASA under pressure to send a scientist to the Moon. The mission's heavy emphasis on science meant the inclusion of a number of new experiments, including a biological experiment containing five mice carried in the command module. Mission planners considered two primary goals in selecting the landing site: to sample lunar highland material older than Mare Imbrium and to investigate the possibility of relatively recent volcanic activity. They thus selected Taurus–Littrow, where formations that had been viewed and pictured from orbit were thought to be volcanic in nature. Since all three crew members had backed up previous Apollo lunar missions, they were familiar with the Apollo spacecraft and had more time for geology training. Launched at 12:33 a.m. Eastern Standard Time (EST) on December 7, 1972, after the only launch-pad delay in the Apollo program caused by a hardware problem, Apollo 17 was a \"J-type\" mission that included three days on the lunar surface, extended scientific capability, and the use of the third Lunar Roving Vehicle (LRV). Cernan and Schmitt landed in the Taurus–Littrow valley and completed three moonwalks, taking lunar samples and deploying scientific instruments. Orange soil was discovered at Shorty crater, and proved to be volcanic in origin, although from early in the Moon's history. Evans remained in lunar orbit in the command and service module (CSM), taking scientific measurements and photographs. The spacecraft returned to Earth on December 19. The mission broke several records for crewed spaceflight, including the longest crewed lunar landing mission (12 days 14 hours), greatest distance from a spacecraft during an extravehicular activity of any type (7.6 kilometers or 4.7 miles), longest total lunar surface extravehicular activities (22 hours 4 minutes), largest lunar sample return (approximately 115 kg or 254 lb), longest time in lunar orbit (6 days 4 hours), and most lunar orbits (75).<br><b>Crew:</b><br><a href=\"http://dbpedia.org/resource/Gene_Cernan\" target=\"_blank\">Gene Cernan</a> - Command Module Pilot<br><a href=\"http://dbpedia.org/resource/Harrison_Schmitt\" target=\"_blank\">Harrison Schmitt</a> - Commander<br><a href=\"http://dbpedia.org/resource/Ronald_Evans_(astronaut)\" target=\"_blank\">Ronald Evans (astronaut)</a> - Lunar Module Pilot<br><b>Rocket:</b><br>Saturn V SA-512<br><b>Spacecraft:</b><br><a href=\"http://dbpedia.org/resource/Apollo_Lunar_Module\" target=\"_blank\">Apollo Lunar Module</a><br><a href=\"http://dbpedia.org/resource/Apollo_command_and_service_module\" target=\"_blank\">Apollo command and service module</a><br><b>Launch Site:</b><br><a href=\"http://dbpedia.org/resource/Kennedy_Space_Center\" target=\"_blank\">Kennedy Space Center</a><br><a href=\"http://dbpedia.org/resource/Kennedy_Space_Center_Launch_Complex_39\" target=\"_blank\">Kennedy Space Center Launch Complex 39</a><br><a href=\"http://dbpedia.org/resource/Kennedy_Space_Center_Launch_Complex_39A\" target=\"_blank\">Kennedy Space Center Launch Complex 39A</a>" .
+
+ex:text2 a tl:Text ;
+    tl:headline "AS-203" ;
+    tl:text "AS-203 (or SA-203) was an uncrewed flight of the Saturn IB rocket on July 5, 1966. It carried no command and service module, as its purpose was to verify the design of the S-IVB rocket stage restart capability that would later be used in the Apollo program to boost astronauts from Earth orbit to a trajectory towards the Moon. It achieved its objectives, but the stage was inadvertently destroyed after four orbits.<br><b>Rocket:</b><br>Saturn IB SA-203<br><b>Launch Site:</b><br><a href=\"http://dbpedia.org/resource/Cape_Canaveral_Air_Force_Station\" target=\"_blank\">Cape Canaveral Air Force Station</a><br><a href=\"http://dbpedia.org/resource/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_37\" target=\"_blank\">Cape Canaveral Air Force Station Space Launch Complex 37</a>" .
+
+ex:text3 a tl:Text ;
+    tl:headline "AS-202" ;
+    tl:text "AS-202 (also referred to as SA-202) was the second uncrewed, suborbital test flight of a production Block I Apollo command and service module launched with the Saturn IB launch vehicle. It was launched on August 25, 1966, and was the first flight which included the spacecraft guidance, navigation control system and fuel cells. The success of this flight enabled the Apollo program to judge the Block I spacecraft and Saturn IB ready to carry men into orbit on the next mission, AS-204.<br><b>Rocket:</b><br><a href=\"http://dbpedia.org/resource/Saturn_IB\" target=\"_blank\">Saturn IB</a><br><b>Spacecraft:</b><br><a href=\"http://dbpedia.org/resource/Apollo_CSM\" target=\"_blank\">Apollo CSM</a><br><b>Launch Site:</b><br><a href=\"http://dbpedia.org/resource/Cape_Canaveral_Air_Force_Station\" target=\"_blank\">Cape Canaveral Air Force Station</a><br><a href=\"http://dbpedia.org/resource/Cape_Canaveral_Air_Force_Station_Launch_Complex_34\" target=\"_blank\">Cape Canaveral Air Force Station Launch Complex 34</a>" .
+
+ex:text4 a tl:Text ;
+    tl:headline "Apollo 1" ;
+    tl:text "Apollo 1, initially designated AS-204, was the first crewed mission of the Apollo program, the American undertaking to land the first man on the Moon. It was planned to launch on February 21, 1967, as the first low Earth orbital test of the Apollo command and service module. The mission never flew; a cabin fire during a launch rehearsal test at Cape Kennedy Air Force Station Launch Complex 34 on January 27 killed all three crew members—Command Pilot Gus Grissom, Senior Pilot Ed White, and Pilot Roger B. Chaffee—and destroyed the command module (CM). The name Apollo 1, chosen by the crew, was made official by NASA in their honor after the fire. Immediately after the fire, NASA convened an Accident Review Board to determine the cause of the fire, and both chambers of the United States Congress conducted their own committee inquiries to oversee NASA's investigation. The ignition source of the fire was determined to be electrical, and the fire spread rapidly due to combustible nylon material and the high-pressure pure oxygen cabin atmosphere. Rescue was prevented by the plug door hatch, which could not be opened against the internal pressure of the cabin. Because the rocket was unfueled, the test had not been considered hazardous, and emergency preparedness for it was poor. During the Congressional investigation, Senator Walter Mondale publicly revealed a NASA internal document citing problems with prime Apollo contractor North American Aviation, which became known as the Phillips Report. This disclosure embarrassed NASA Administrator James E. Webb, who was unaware of the document's existence, and attracted controversy to the Apollo program. Despite congressional displeasure at NASA's lack of openness, both congressional committees ruled that the issues raised in the report had no bearing on the accident. Crewed Apollo flights were suspended for twenty months while the command module's hazards were addressed. However, the development and uncrewed testing of the lunar module (LM) and Saturn V rocket continued. The Saturn IB launch vehicle for Apollo 1, SA-204, was used for the first LM test flight, Apollo 5. The first successful crewed Apollo mission was flown by Apollo 1's backup crew on Apollo 7 in October 1968.<br><b>Crew:</b><br><a href=\"http://dbpedia.org/resource/Ed_White_(astronaut)\" target=\"_blank\">Ed White (astronaut)</a> - Command Pilot<br><a href=\"http://dbpedia.org/resource/Gus_Grissom\" target=\"_blank\">Gus Grissom</a> - Pilot<br><a href=\"http://dbpedia.org/resource/Roger_B._Chaffee\" target=\"_blank\">Roger B. Chaffee</a> - Senior Pilot<br><b>Rocket:</b><br>Saturn IB AS-204<br><b>Launch Site:</b><br><a href=\"http://dbpedia.org/resource/Cape_Canaveral_Air_Force_Station\" target=\"_blank\">Cape Canaveral Air Force Station</a><br><a href=\"http://dbpedia.org/resource/Cape_Canaveral_Launch_Complex_34\" target=\"_blank\">Cape Canaveral Launch Complex 34</a>" .
+
+ex:text5 a tl:Text ;
+    tl:headline "Apollo 4" ;
+    tl:text "Apollo 4 (November 9, 1967), also known as SA-501, was the uncrewed first test flight of the Saturn V launch vehicle, the rocket that eventually took astronauts to the Moon. The space vehicle was assembled in the Vehicle Assembly Building, and was the first to be launched from Kennedy Space Center (KSC) in Florida, ascending from Launch Complex 39, where facilities built specially for the Saturn V had been constructed. Apollo 4 was an \"all-up\" test, meaning all rocket stages and spacecraft were fully functional on the initial flight, a first for NASA. It was the first time the S-IC first stage and S-II second stage flew. It also demonstrated the S-IVB third stage's first in-flight restart. The mission used a Block I command and service module modified to test several key Block II revisions, including its heat shield at simulated lunar-return velocity and angle. The original launch date was planned for early 1967, but was delayed to November 9 because of a large number of problems with various elements of the spacecraft, and difficulties during pre-flight testing. The need for additional inspections following the Apollo 1 fire, which killed the first Apollo crew in January 1967, also contributed to delays. These issues delayed the flight through much of 1967. The mission splashed down in the Pacific Ocean slightly less than nine hours after launch, having achieved its objectives. NASA considered the mission a complete success, proving that the Saturn V worked, an important step towards achieving the main objective of landing astronauts on the Moon, and bringing them back safely, before the end of the 1960s.<br><b>Rocket:</b><br>Saturn V SA-501<br><b>Spacecraft:</b><br><a href=\"http://dbpedia.org/resource/Apollo_command_and_service_module\" target=\"_blank\">Apollo command and service module</a><br><b>Launch Site:</b><br><a href=\"http://dbpedia.org/resource/Kennedy_Space_Center\" target=\"_blank\">Kennedy Space Center</a><br><a href=\"http://dbpedia.org/resource/Kennedy_Space_Center_Launch_Complex_39\" target=\"_blank\">Kennedy Space Center Launch Complex 39</a>" .
+
+ex:text6 a tl:Text ;
+    tl:headline "Apollo 5" ;
+    tl:text "Apollo 5 (launched January 22, 1968), also known as AS-204, was the uncrewed first flight of the Apollo Lunar Module (LM) that would later carry astronauts to the surface of the Moon. The Saturn IB rocket bearing the LM lifted off from Cape Kennedy on January 22, 1968. The mission was successful, though due to programming problems an alternate mission to that originally planned was executed. Like Apollo 4, this flight was long delayed, due in part to setbacks in development of the LM, manufactured by Grumman Aircraft. The original Saturn IB rocket that was to take the first LM (LM-1) to space was taken down during the delays and replaced with the one that would have launched Apollo 1 if the spacecraft fire that killed three astronauts had not taken place. LM-1 arrived at the Kennedy Space Center in June 1967; the following months were occupied in testing and placing the LM atop the Saturn IB. After final delays due to equipment trouble, the countdown began on January 21, 1968, and the space vehicle was launched the following day. Once the craft reached orbit and the LM separated from the S-IVB booster, the program of orbital testing began, but a planned burn was aborted automatically when the Apollo Guidance Computer detected the craft was not going as fast as planned. Flight Director Gene Kranz and his team at Mission Control in Houston quickly decided on an alternate mission, during which the mission's goals of testing LM-1 were accomplished. The mission was successful enough that a contemplated second uncrewed mission to test the LM was cancelled, advancing NASA's plans to land an astronaut on the Moon by the end of the 1960s.<br><b>Rocket:</b><br>Saturn IB SA-204<br><b>Spacecraft:</b><br><a href=\"http://dbpedia.org/resource/Apollo_Lunar_Module\" target=\"_blank\">Apollo Lunar Module</a><br><b>Launch Site:</b><br><a href=\"http://dbpedia.org/resource/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_37\" target=\"_blank\">Cape Canaveral Air Force Station Space Launch Complex 37</a><br><a href=\"http://dbpedia.org/resource/Cape_Canaveral_Space_Force_Station\" target=\"_blank\">Cape Canaveral Space Force Station</a>" .
+
+ex:text7 a tl:Text ;
+    tl:headline "Apollo 6" ;
+    tl:text "Apollo 6 (April 4, 1968), also known as AS-502, was the third and final uncrewed flight in the United States' Apollo Program and the second test of the Saturn V launch vehicle. It qualified the Saturn V to be used on crewed missions, as happened for the first time on Apollo 8 in December 1968. Apollo 6 was intended to demonstrate the ability of the Saturn V's third stage, the S-IVB, to propel itself and the Apollo spacecraft to lunar distances. Its components began arriving at the Kennedy Space Center in early 1967. Testing proceeded slowly, often delayed by testing of the Saturn V intended for Apollo 4—the inaugural launch of the Saturn V. After that uncrewed mission launched in November 1967, there were fewer delays, but enough so that the flight was postponed from March to April 1968. The flight plan called for following trans-lunar injection with a direct return abort using the service module's main engine, with a flight time totaling about 10 hours. Instead, vibrations damaged some of the Rocketdyne J-2 engines in the second and third stages by rupturing internal fuel lines causing a second-stage engine to shut down early. An additional second-stage engine shut down early due to cross wiring with the other shutdown engine. The vehicle's onboard guidance system compensated by burning the second and third stages longer, although the resulting parking orbit was more elliptical than planned. The damaged third-stage engine failed to restart for trans-lunar injection. Flight controllers elected to repeat the flight profile of the previous Apollo 4 test, achieving a high orbit and high-speed return. Despite the engine failures, the flight provided NASA with enough confidence to use the Saturn V for crewed launches; a potential third uncrewed flight was cancelled.<br><b>Rocket:</b><br>Saturn V SA-502<br><b>Spacecraft:</b><br><a href=\"http://dbpedia.org/resource/Apollo_command_and_service_module\" target=\"_blank\">Apollo command and service module</a><br><b>Launch Site:</b><br><a href=\"http://dbpedia.org/resource/Kennedy_Space_Center\" target=\"_blank\">Kennedy Space Center</a><br><a href=\"http://dbpedia.org/resource/Kennedy_Space_Center_Launch_Complex_39\" target=\"_blank\">Kennedy Space Center Launch Complex 39</a>" .
+
+ex:text8 a tl:Text ;
+    tl:headline "Apollo 7" ;
+    tl:text "Apollo 7 (October 11 – 22, 1968) was the first crewed flight in NASA's Apollo program, and saw the resumption of human spaceflight by the agency after the fire that killed the three Apollo 1 astronauts during a launch rehearsal test on January 27, 1967. The Apollo 7 crew was commanded by Walter M. Schirra, with command module pilot Donn F. Eisele and lunar module pilot R. Walter Cunningham (so designated even though Apollo 7 did not carry a Lunar Module). The three astronauts were originally designated for the second crewed Apollo flight, and then as backups for Apollo 1. After the Apollo 1 fire, crewed flights were suspended while the cause of the accident was investigated and improvements made to the spacecraft and safety procedures, and uncrewed test flights made. Determined to prevent a repetition of the fire, the crew spent long periods monitoring the construction of their Apollo command and service modules (CSM). Training continued over much of the 21-month pause that followed the Apollo 1 disaster. Apollo 7 was launched on October 11, 1968, from Cape Kennedy Air Force Station, Florida, and splashed down in the Atlantic Ocean eleven days later. Extensive testing of the CSM took place, and also the first live television broadcast from an American spacecraft. Despite tension between the crew and ground controllers, the mission was a complete technical success, giving NASA the confidence to send Apollo 8 into orbit around the Moon two months later. In part because of these tensions, none of the crew flew in space again, though Schirra had already announced he would retire from NASA after the flight. Apollo 7 fulfilled Apollo 1's mission of testing the CSM in low Earth orbit, and was a significant step towards NASA's goal of landing astronauts on the Moon.<br><b>Crew:</b><br><a href=\"http://dbpedia.org/resource/Donn_F._Eisele\" target=\"_blank\">Donn F. Eisele</a> - Command Module Pilot<br><a href=\"http://dbpedia.org/resource/Wally_Schirra\" target=\"_blank\">Wally Schirra</a> - Commander<br><a href=\"http://dbpedia.org/resource/Walter_Cunningham\" target=\"_blank\">Walter Cunningham</a> - Lunar Module Pilot<br><b>Rocket:</b><br>Saturn IB SA-205<br><b>Spacecraft:</b><br><a href=\"http://dbpedia.org/resource/Apollo_(spacecraft)\" target=\"_blank\">Apollo (spacecraft)</a><br><b>Launch Site:</b><br><a href=\"http://dbpedia.org/resource/Cape_Canaveral_Air_Force_Station\" target=\"_blank\">Cape Canaveral Air Force Station</a><br><a href=\"http://dbpedia.org/resource/Cape_Canaveral_Air_Force_Station_Launch_Complex_34\" target=\"_blank\">Cape Canaveral Air Force Station Launch Complex 34</a>" .
+
+ex:text9 a tl:Text ;
+    tl:headline "Apollo 8" ;
+    tl:text "Apollo 8 (December 21–27, 1968) was the first crewed spacecraft to leave low Earth orbit and the first human spaceflight to reach the Moon. The crew orbited the Moon ten times without landing, and then departed safely back to Earth. These three astronauts—Frank Borman, James Lovell, and William Anders—were the first humans to personally witness and photograph the far side of the Moon and an Earthrise. Apollo 8 launched on December 21, 1968, and was the second crewed spaceflight mission flown in the United States Apollo space program after Apollo 7, which stayed in Earth orbit. Apollo 8 was the third flight and the first crewed launch of the Saturn V rocket, and was the first human spaceflight from the Kennedy Space Center, located adjacent to Cape Kennedy Air Force Station in Florida. Originally planned as the second crewed Apollo Lunar Module and command module test, to be flown in an elliptical medium Earth orbit in early 1969, the mission profile was changed in August 1968 to a more ambitious command-module-only lunar orbital flight to be flown in December, as the lunar module was not yet ready to make its first flight. Astronaut Jim McDivitt's crew, who were training to fly the first lunar module flight in low Earth orbit, became the crew for the Apollo 9 mission, and Borman's crew were moved to the Apollo 8 mission. This left Borman's crew with two to three months' less training and preparation time than originally planned, and replaced the planned lunar module training with translunar navigation training. Apollo 8 took 68 hours to travel the distance to the Moon. The crew orbited the Moon ten times over the course of twenty hours, during which they made a Christmas Eve television broadcast in which they read the first ten verses from the Book of Genesis. At the time, the broadcast was the most watched TV program ever. Apollo 8's successful mission paved the way for Apollo 10 and, with Apollo 11 in July 1969, the fulfillment of U.S. president John F. Kennedy's goal of landing a man on the Moon before the end of the decade. The Apollo 8 astronauts returned to Earth on December 27, 1968, when their spacecraft splashed down in the northern Pacific Ocean. The crew members were named Time magazine's \"Men of the Year\" for 1968 upon their return.<br><b>Crew:</b><br><a href=\"http://dbpedia.org/resource/Frank_Borman\" target=\"_blank\">Frank Borman</a> - Command Module Pilot<br><a href=\"http://dbpedia.org/resource/Jim_Lovell\" target=\"_blank\">Jim Lovell</a> - Commander<br><a href=\"http://dbpedia.org/resource/William_Anders\" target=\"_blank\">William Anders</a> - Lunar Module Pilot<br><b>Rocket:</b><br>Saturn V SA-503<br><b>Spacecraft:</b><br><a href=\"http://dbpedia.org/resource/Apollo_command_and_service_module\" target=\"_blank\">Apollo command and service module</a><br><b>Launch Site:</b><br><a href=\"http://dbpedia.org/resource/Kennedy_Space_Center\" target=\"_blank\">Kennedy Space Center</a><br><a href=\"http://dbpedia.org/resource/Kennedy_Space_Center_Launch_Complex_39A\" target=\"_blank\">Kennedy Space Center Launch Complex 39A</a>" .
+
